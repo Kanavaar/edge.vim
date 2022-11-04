@@ -1,5 +1,5 @@
 " =============================================================================
-" URL: https://github.com/sainnhe/edge
+" URL: https://github.com/kanavaar/edge.vim
 " Filename: autoload/edge.vim
 " Author: sainnhe
 " Email: i@sainnhe.dev
@@ -32,7 +32,7 @@ function! edge#get_palette(style, dim_foreground, colors_override) "{{{
     if a:style ==# 'default' "{{{
       let palette = {
             \ 'black':      ['#202023',   '232'],
-            \ 'bg0':        ['#2c2e34',   '235'],
+            \ 'bg0':        ['#282828',   '235'],
             \ 'bg1':        ['#33353f',   '236'],
             \ 'bg2':        ['#363944',   '237'],
             \ 'bg3':        ['#3b3e48',   '237'],
